@@ -228,94 +228,94 @@ SC.stream('/tracks/114776547', function(sound) {
     sound.stop();
   });
 });
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-SC.stream('/tracks/27432487', function(sound) {
-  $('#estart').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
 
 
 });
