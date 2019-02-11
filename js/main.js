@@ -161,11 +161,11 @@ $(document).ready(function() {
 
 /* shape of you*/
 SC.stream('/tracks/303123954', function(sound) {
-  $('#estart').click(function(e) {
+  $('#estart0').click(function(e) {
     e.preventDefault();
     sound.start();
   });
-  $('#estop').click(function(e) {
+  $('#estop0').click(function(e) {
     e.preventDefault();
     sound.stop();
   });
