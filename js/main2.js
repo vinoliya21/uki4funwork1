@@ -161,60 +161,58 @@ $(document).ready(function() {
 
 /* shape of you*/
 SC.stream('/tracks/303123954', function(sound) {
-  $('#estart').click(function(e) {
+  $('#estart0').click(function(e) {
     e.preventDefault();
     sound.start();
   });
-  $('#estop').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-/* janam*/
-SC.stream('/tracks/381306011', function(sound) {
-  $('#start12').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#stop12').click(function(e) {
+  $('#estop0').click(function(e) {
     e.preventDefault();
     sound.stop();
   });
 });
 
-
-
-/* kannana kanne*/
-SC.stream('/tracks/571882998', function(sound) {
-  $('#start13').click(function(e) {
+/* Dalinda*/
+SC.stream('/tracks/89145752', function(sound) {
+  $('#estart1').click(function(e) {
     e.preventDefault();
     sound.start();
   });
-  $('#stop13').click(function(e) {
+  $('#estop1').click(function(e) {
     e.preventDefault();
     sound.stop();
   });
 });
 
 /* love*/
-SC.stream('/tracks/123676319', function(sound) {
-  $('#start14').click(function(e) {
+SC.stream('/tracks/27432487', function(sound) {
+  $('#estart2').click(function(e) {
     e.preventDefault();
     sound.start();
   });
-  $('#stop14').click(function(e) {
+  $('#estop2').click(function(e) {
     e.preventDefault();
     sound.stop();
   });
 });
 
 /* get on the floor*/
-SC.stream('/tracks/217488631', function(sound) {
-  $('#start15').click(function(e) {
+SC.stream('/tracks/181436429', function(sound) {
+  $('#estart3').click(function(e) {
     e.preventDefault();
     sound.start();
   });
-  $('#stop15').click(function(e) {
+  $('#estop3').click(function(e) {
+    e.preventDefault();
+    sound.stop();
+  });
+});
+/* inter love*/
+SC.stream('/tracks/45292719', function(sound) {
+  $('#estart4').click(function(e) {
+    e.preventDefault();
+    sound.start();
+  });
+  $('#estop4').click(function(e) {
     e.preventDefault();
     sound.stop();
   });
@@ -230,5 +228,94 @@ SC.stream('/tracks/114776547', function(sound) {
     sound.stop();
   });
 });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+//
+// SC.stream('/tracks/27432487', function(sound) {
+//   $('#estart').click(function(e) {
+//     e.preventDefault();
+//     sound.start();
+//   });
+//   $('#estop').click(function(e) {
+//     e.preventDefault();
+//     sound.stop();
+//   });
+// });
+
 
 });

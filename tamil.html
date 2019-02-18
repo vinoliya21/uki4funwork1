@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Traky Music</title>
-    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
     <link rel="stylesheet" href="css/app.v1.css" type="text/css" />
     <style media="screen">
@@ -24,72 +23,82 @@
       img{
         height: 255px;
       }
+      #nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+      }
+      #vbox{
+
+
+      }
+      #vbox1{
+        height: 35px;
+
+        margin-top: -20px;
+      }
+      #vbox1 h2{
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #nav li {
+        float: left;
+        list-style: none;
+        margin-top: 8px;
+      }
+
+      #nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      #nav li a:hover {
+        background-color: #900C3F;
+        color: white;
+        font-weight: bold;
+      }
+      .img-full{
+        border-radius: 0px;
+      }
+      .img:hover{
+        border-radius: 0px;
+      }
+      .active{
+        background-color: #FFC300  ;
+      }
     </style>
 </head>
 
 <body class="ba" >
-    <section class="vbox">
+    <section class="vbox" >
+      <div id="vbox1">
+        <h2>Traky Music</h2>
+      </div>
 
-        <header class="bg-white-only header header-md navbar navbar-fixed-top-xs">
+        <header class="bg-white-only header header-md navbar navbar-fixed-top-xs" id="vbox">
+          <ul id="nav">
+            <li > <a href="index.html"> Home</a> </li>
+            <li class="active"> <a href="tamil.html">Tamil</a> </li>
+            <li> <a href="english.html">English</a> </li>
+            <li> <a href="hindi.html">Hindi</a> </li>
 
-            <div class="navbar-header aside bg-info nav-xs" style="background:green;" id="navigation">
-                <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html"> <i class="icon-list"></i> </a>
-                <a href="index.html" class="navbar-brand text-lt"> <i class="icon-earphones"></i> <img src="images/logo.png" alt="." class="hide"> <span class="hidden-nav-xs m-l-sm">Traky Music</span> </a>
-                <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user"> <i class="icon-settings"></i> </a>
-            </div>
+          </ul>
 
-            <ul class="nav navbar-nav hidden-xs">
-                <li>
-                    <a href="#nav,#navigation" data-toggle="class:nav-xs,nav-xs" class="text-muted"> <i class="fa fa-indent text"></i> <i class="fa fa-dedent text-active"></i> </a>
-                </li>
-                <li > <span > <a href="tamil.html" style="color:#C70039; font-size:30px;margin-left:500px; margin-top:100px;font-weight: bold;"> Tamil Music Box</a> </span></li>
-            </ul>
+
 
 
         </header>
-        <section>
-            <section class="hbox stretch">
-                <!-- .aside -->
-                <aside class="bg-black dk nav-xs aside hidden-print" id="nav">
-                    <section class="vbox">
-                        <section class="w-f-md scrollable">
-                            <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
-                                <!-- nav -->
-                                <nav class="nav-primary hidden-xs">
-                                    <ul class="nav bg clearfix">
-                                        <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted"> My Music World </li>
-                                        <li>
-                                            <a href="tamil.html"> <i class="icon-disc icon text-success"></i> <span class="font-bold">Tamil</span> </a>
-                                        </li>
-                                        <li>
-                                          <a href="english.html"> <i class="icon-music-tone icon"></i> <span>English</span> </a>
 
-                                        </li>
-                                        <!-- <li>
-                                            <a href="hindi.html"> <i class="icon-music-tone-alt icon text-info"></i> <span class="font-bold">Hindi</span>  </a>
-                                        </li> -->
 
-<!--
-                                        <li>
-                                              <a href="index.html"> <i class="icon-music-tone-alt icon text-info"></i> <span class="font-bold">Hip-Pop</span> </a>
-                                        </li>
-                                        <li>
-                                            <a href="melody.html"> <i class="icon-playlist icon text-success-lter"></i> <span>Melody</span> </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html"> <i class="icon-list icon text-info-dker"></i> <span class="font-bold">Favourite</span> </a>
-                                        </li> -->
-                                    </ul>
-
-                                </nav>
-                                <!-- / nav -->
-                            </div>
-                        </section>
-
-                    </section>
-                </aside>
                 <!-- /.aside -->
-                <section id="content">
+                <section id="content"><br><br>
                     <section class="hbox stretch">
                         <section>
                             <section class="vbox">
@@ -104,14 +113,10 @@
                                                 <div class="pos-rlt">
                                                     <div class="bottom"> <span class="badge bg-info m-l-sm m-b-sm"></span> </div>
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> <i class="fa fa-star-o text-muted"></i> </div>
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start" class="icon-control-play i-2x text"></i> <i id="stop" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                 <a href="#"><img src="images/list/24.jpg" style="height: 255px;" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -127,14 +132,11 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black ">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start1" class="icon-control-play i-2x text"></i> <i id="stop1" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right active" data-toggle="class"> <i class="fa fa-heart-o text"></i> <i class="fa fa-heart text-active text-danger"></i> </a>
-                                                            <a href="#" data-toggle="class"> <i class="fa fa-plus-circle text"></i> <i class="fa fa-check-circle text-active text-info"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/list/2.0.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -151,15 +153,10 @@
                                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
                                             <div class="item">
                                                 <div class="pos-rlt">
-                                                    <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
-                                                       <div class="center text-center m-t-n">
+                                                    <div class="item-overlay opacity r r-2x bg-black"> <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start2" class="icon-control-play i-2x text"></i> <i id="stop2"class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/remo.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -172,17 +169,12 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
-                                                       <div class="center text-center m-t-n">
+                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start3" class="icon-control-play i-2x text"></i> <i id="stop3" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
-                                                    <div class="top"> <span class="pull-right m-t-n-xs m-r-sm text-white"> <i class="fa fa-bookmark i-lg"></i> </span> </div>
-                                                    <a href="#"><img src="images/viswasam.jpg" alt="" class="r r-2x img-full"></a>
+                                                      <a href="#"><img src="images/viswasam.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v"> <a href="#" class="text-ellipsis">Adchithooku</a> <a href="#" class="text-ellipsis text-xs text-muted">D.Imaan</a> </div>
                                             </div>
@@ -196,14 +188,11 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start4" class="icon-control-play i-2x text"></i> <i id="stop4" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/pyk.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -218,14 +207,11 @@
                                                 <div class="pos-rlt">
                                                     <div class="top"> <!-- <span class="pull-right m-t-sm m-r-sm badge bg-info">6</span> --> </div>
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start5" class="icon-control-play i-2x text"></i> <i id="stop5" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/aym.jpg" style="height: 255px;" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -252,16 +238,13 @@
                                                 <div class="pos-rlt">
                                                     <div class="bottom"> <span class="badge bg-info m-l-sm m-b-sm"></span> </div>
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start6" class="icon-control-play i-2x text"></i> <i id="stop6" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
-                                                    <a href="#"><img src="images/imai.jpg" alt="" class="r r-2x img-full"></a>
+                                                    <a href="#"><img src="images/imai.jpeg" alt="" class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v"> <a href="#" class="text-ellipsis">Neeyum Naanum Anbe</a> <a href="#" class="text-ellipsis text-xs text-muted">Hiphop Tamizha</a> </div>
                                             </div>
@@ -273,14 +256,11 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black ">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start7" class="icon-control-play i-2x text"></i> <i id="stop7" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right active" data-toggle="class"> <i class="fa fa-heart-o text"></i> <i class="fa fa-heart text-active text-danger"></i> </a>
-                                                            <a href="#" data-toggle="class"> <i class="fa fa-plus-circle text"></i> <i class="fa fa-check-circle text-active text-info"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/new.jpg" style="height: 255px" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -297,14 +277,11 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start8" class="icon-control-play i-2x text"></i> <i id="stop8" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/katha.jpg" style="height: 255px" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -319,16 +296,13 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                        <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start9" class="icon-control-play i-2x text"></i> <i id="stop9" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
-                                                    <div class="top"> <span class="pull-right m-t-n-xs m-r-sm text-white"> <i class="fa fa-bookmark i-lg"></i> </span> </div>
+
                                                     <a href="#"><img src="images/vadi.jpg" alt="" class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v"> <a href="#" class="text-ellipsis">Vadi pulla vadi</a> <a href="#" class="text-ellipsis text-xs text-muted">Hip Hop Tamizha</a> </div>
@@ -344,14 +318,11 @@
                                             <div class="item">
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start10" class="icon-control-play i-2x text"></i> <i id="stop10" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/maari.jpg" style="height: 255px"
                                                      alt="" class="r r-2x img-full"></a>
@@ -365,14 +336,11 @@
                                                 <div class="pos-rlt">
                                                     <div class="top"> <!-- <span class="pull-right m-t-sm m-r-sm badge bg-info">6</span>  --></div>
                                                     <div class="item-overlay opacity r r-2x bg-black">
-                                                        <div class="text-info padder m-t-sm text-sm"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o text-muted"></i> </div>
+
                                                         <div class="center text-center m-t-n">
                                                             <a href="#" data-toggle="class"> <i id="start11" class="icon-control-play i-2x text"></i> <i id="stop11" class="icon-control-pause i-2x text-active"></i> </a>
                                                         </div>
-                                                        <div class="bottom padder m-b-sm">
-                                                            <a href="#" class="pull-right"> <i class="fa fa-heart-o"></i> </a>
-                                                            <a href="#"> <i class="fa fa-plus-circle"></i> </a>
-                                                        </div>
+
                                                     </div>
                                                     <a href="#"><img src="images/is.jpg" style="height: 255px;" alt="" class="r r-2x img-full"></a>
                                                 </div>
@@ -380,6 +348,13 @@
                                             </div>
                                         </div>
                                     </div>
+
+
+                                  <!-- /////////////////////**************** 3re row *********************************-->
+
+
+
+
                             </section>
                         </section>
                             </section>
@@ -395,13 +370,13 @@
       <script src="js/jquery.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="//connect.soundcloud.com/sdk.js"></script>
-    <script src="js/main.js"></script>
+
     <script src="js/app.v1.js"></script>
     <script src="js/app.plugin.js"></script>
     <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
     <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
     <script type="text/javascript" src="js/jPlayer/demo.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
 
 
